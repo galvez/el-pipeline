@@ -15,5 +15,8 @@
   "dependencies": {
     "@fastify/one-line-logger": "^2.0.2",
     "p-map": "^7.0.3"
-  }
+  },
+  "files": [
+    "index.js"
+  ]
 }
