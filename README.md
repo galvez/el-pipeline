@@ -2,7 +2,7 @@
 
 [![npm version](https://img.shields.io/npm/v/el-pipeline)](https://npmjs.com/package/el-pipeline)
 
-A simple event loop pipelining function.
+A simple event loop pipelining function inspired by [ioredis-auto-pipeline](https://github.com/mcollina/ioredis-auto-pipeline/tree/master).
 
 ```js
 import { elPipeline } from 'el-pipeline'
