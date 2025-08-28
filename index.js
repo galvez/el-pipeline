@@ -1,7 +1,7 @@
 import pMap from 'p-map'
 import { performance } from 'node:perf_hooks'
 
-// A simple event-loop pipeline
+// A simple event loop pipelining function
 
 const maxELU = 0.9
 const queue = []
