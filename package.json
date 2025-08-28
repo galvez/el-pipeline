@@ -1,0 +1,19 @@
+{
+  "type": "module",
+  "name": "el-pipeline",
+  "version": "0.1.0",
+  "author": "Jonas Galvez <jonasgalvez@gmail.com",
+  "license": "MIT",
+  "scripts": {
+    "lint": "oxlint . && prettier -w --no-semi --single-quote ."
+  },
+  "devDependencies": {
+    "fastify": "^5.5.0",
+    "oxlint": "latest",
+    "prettier": "latest"
+  },
+  "dependencies": {
+    "@fastify/one-line-logger": "^2.0.2",
+    "p-map": "^7.0.3"
+  }
+}
